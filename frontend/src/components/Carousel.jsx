@@ -1,4 +1,4 @@
-import VideoCard from "./VideoCard";
+import VideoCard from "./Videocard";
 
 const Carousel = ({ videos }) => {
   return (

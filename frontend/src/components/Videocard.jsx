@@ -1,4 +1,4 @@
-const VideoCard = ({ video, handleLike }) => {
+const VideoCard = ({ video }) => {
   return (
     <div className="w-[500px] ">
 

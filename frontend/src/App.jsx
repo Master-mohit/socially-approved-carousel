@@ -21,30 +21,7 @@ const App = () => {
   }, []);
 
 
-  const handleLike = async (videoId) => {
-  try {
-    await api.post("/like", {
-      videoId,
-      userId: "user1",
-    });
 
-    getVideos(); 
-  } catch (error) {
-    console.log(error);
-  }
-};
-
-const handleShare = async (videoId) => {
-  try {
-    await api.post("/share", {
-      videoId,
-    });
-
-    getVideos(); // Latest data fetch
-  } catch (error) {
-    console.log(error);
-  }
-};
 
   return (
     <div className="min-h-screen bg-zinc-950 text-white">
@@ -63,8 +40,7 @@ const handleShare = async (videoId) => {
          <VideoModal
     video={selectedVideo}
     onClose={() => setSelectedVideo(null)}
-     handleLike={handleLike}
-  handleShare={handleShare}
+   
   />
       </div>
     </div>
