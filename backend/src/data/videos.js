@@ -1,95 +1,94 @@
 const videos = [
   {
     id: 1,
-    title: "Nature",
-    description: "Beautiful nature video",
+    title: "Beach Sunset",
+    description: "Enjoy a peaceful sunset by the beach.",
     videoUrl: "/videos/video1.mp4",
-    likes: 120,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
   {
     id: 2,
-    title: "Travel",
-    description: "Travel vlog",
+    title: "Mountain Adventure",
+    description: "A breathtaking journey through the mountains.",
     videoUrl: "/videos/video2.mp4",
-    likes: 95,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
   {
     id: 3,
-    title: "Food",
-    description: "Food reel",
+    title: "Street Food Tour",
+    description: "Exploring delicious street food around the city.",
     videoUrl: "/videos/video3.mp4",
-    likes: 210,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
-    {
+  {
     id: 4,
-    title: "Nature",
-    description: "Beautiful nature video",
+    title: "Morning Nature",
+    description: "Fresh morning vibes surrounded by greenery.",
     videoUrl: "/videos/video4.mp4",
-    likes: 120,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
   {
     id: 5,
-    title: "Travel",
-    description: "Travel vlog",
+    title: "City Lights",
+    description: "Beautiful night view of the city skyline.",
     videoUrl: "/videos/video5.mp4",
-    likes: 95,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
   {
     id: 6,
-    title: "Food",
-    description: "Food reel",
+    title: "Coffee Time",
+    description: "Making a perfect cup of coffee.",
     videoUrl: "/videos/video6.mp4",
-    likes: 210,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
-    {
+  {
     id: 7,
-    title: "Nature",
-    description: "Beautiful nature video",
+    title: "Road Trip",
+    description: "Memorable moments from an exciting road trip.",
     videoUrl: "/videos/video7.mp4",
-    likes: 120,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
   {
     id: 8,
-    title: "Travel",
-    description: "Travel vlog",
+    title: "Fitness Workout",
+    description: "Quick fitness routine to stay healthy.",
     videoUrl: "/videos/video8.mp4",
-    likes: 95,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
   {
     id: 9,
-    title: "Food",
-    description: "Food reel",
+    title: "Cute Pets",
+    description: "Funny and adorable pet moments.",
     videoUrl: "/videos/video9.mp4",
-    likes: 210,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
-   {
+  {
     id: 10,
-    title: "Food",
-    description: "Food reel",
+    title: "Rainy Day",
+    description: "Relax with soothing rain and calm atmosphere.",
     videoUrl: "/videos/video10.mp4",
-    likes: 210,
-    shares: 45,
-    likedBy: []
+    likes: 0,
+    shares: 0,
+    likedBy: [],
   },
-
 ];
 
 module.exports = videos;
