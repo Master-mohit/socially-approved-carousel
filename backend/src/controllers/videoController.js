@@ -70,7 +70,41 @@ const LikedVideos = (req, res) => {
     }
 };
 
+
+const ShareVideo = (req, res) => {
+    try {
+
+        const { videoId } = req.body;
+
+        const video = videos.find(
+            (video) => video.id === Number(videoId)
+        );
+
+        if (!video) {
+            return res.status(404).json({
+                message: "Video not found"
+            });
+        }
+
+        video.shares++;
+
+        return res.status(200).json({
+            message: "Video shared successfully",
+            data: video
+        });
+
+    } catch (error) {
+
+        return res.status(500).json({
+            message: "Something went wrong",
+            error: error.message
+        });
+
+    }
+};
+
 module.exports = {
     GetVideos,
-    LikedVideos
+    LikedVideos,
+    ShareVideo
 };

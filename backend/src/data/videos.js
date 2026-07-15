@@ -5,6 +5,7 @@ const videos = [
     description: "Beautiful nature video",
     videoUrl: "/videos/video1.mp4",
     likes: 120,
+    shares: 45,
     likedBy: []
   },
   {
@@ -13,6 +14,7 @@ const videos = [
     description: "Travel vlog",
     videoUrl: "/videos/video2.mp4",
     likes: 95,
+    shares: 45,
     likedBy: []
   },
   {
@@ -21,6 +23,7 @@ const videos = [
     description: "Food reel",
     videoUrl: "/videos/video3.mp4",
     likes: 210,
+    shares: 45,
     likedBy: []
   },
     {
@@ -29,6 +32,7 @@ const videos = [
     description: "Beautiful nature video",
     videoUrl: "/videos/video4.mp4",
     likes: 120,
+    shares: 45,
     likedBy: []
   },
   {
@@ -37,6 +41,7 @@ const videos = [
     description: "Travel vlog",
     videoUrl: "/videos/video5.mp4",
     likes: 95,
+    shares: 45,
     likedBy: []
   },
   {
@@ -45,6 +50,7 @@ const videos = [
     description: "Food reel",
     videoUrl: "/videos/video6.mp4",
     likes: 210,
+    shares: 45,
     likedBy: []
   },
     {
@@ -53,6 +59,7 @@ const videos = [
     description: "Beautiful nature video",
     videoUrl: "/videos/video7.mp4",
     likes: 120,
+    shares: 45,
     likedBy: []
   },
   {
@@ -61,6 +68,7 @@ const videos = [
     description: "Travel vlog",
     videoUrl: "/videos/video8.mp4",
     likes: 95,
+    shares: 45,
     likedBy: []
   },
   {
@@ -69,6 +77,7 @@ const videos = [
     description: "Food reel",
     videoUrl: "/videos/video9.mp4",
     likes: 210,
+    shares: 45,
     likedBy: []
   },
    {
@@ -77,6 +86,7 @@ const videos = [
     description: "Food reel",
     videoUrl: "/videos/video10.mp4",
     likes: 210,
+    shares: 45,
     likedBy: []
   },
 
