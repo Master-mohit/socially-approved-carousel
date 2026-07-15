@@ -21,32 +21,14 @@ const App = () => {
          getVideos();
           }, []);
 
+
   return (
-    <div>
-      <h1>Socially Approved Carousel</h1>
-
-      {
-        videos.map((video) => (
-          <div key={video.id}>
-            <h2>{video.title}</h2>
-            <p>{video.description}</p>
-
-            <video
-              src={`http://localhost:3000${video.videoUrl}`}
-              width="300"
-              controls
-            />
-
-            <p>❤️ {video.likes}</p>
-            <p>🔗 {video.shares}</p>
-
-            <hr />
-          </div>
-        ))
-      }
-
-    </div>
+    <h1 className="text-5xl text-red-500 font-bold font-extralight">
+      Tailwind Working
+    </h1>
   );
+
+
 }
 
 export default App
