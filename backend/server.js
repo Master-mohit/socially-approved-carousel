@@ -1,7 +1,8 @@
+require("dotenv").config();
 const express = require('express');
 const cors = require('cors');
-const ConnectDB = require('../backend/src/config/db');
-const Videorouter = require('../backend/src/routes/videoRoutes');
+const ConnectDB = require('./src/config/db');
+const Videorouter = require('./src/routes/videoRoutes');
 
 
 
